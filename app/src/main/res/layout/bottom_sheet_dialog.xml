@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_sheet_dialog_chooser_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Options To Pick"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="23dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_sheet_dialog_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click a picture"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/teal_200"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_sheet_dialog_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose from gallery"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/teal_200"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_sheet_dialog_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginBottom="23dp"/>
+
+
+
+
+</LinearLayout>
